@@ -172,7 +172,7 @@ var editTask = function (taskId) {
   console.log("editing task #" + taskId);
   document.querySelector("#save-task").textContent = "Save Task";
 
-  var taskSelected = document.querySelector(
+  var taskSelected = document.querySelector( 
     ".task-item[data-task-id='" + taskId + "']"
   );
 
